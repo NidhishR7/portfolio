@@ -54,7 +54,7 @@ body{
       display: block;
     }
     @media only screen and (min-width: 600px) {
-        
+
     }
 
     .topnav-centered a {
@@ -68,3 +68,12 @@ body{
     background-color: black;
     font-size: 16px;
   }
+  @media (max-width: 640px) {
+     .topnav-right{
+        float: left;
+    }
+    .list{
+        display:none;
+    }
+  }
+    
