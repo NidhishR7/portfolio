@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.navbar {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #252422;
+}
+.navbar a {
+  color: #fffcf2;
+  text-decoration: none;
+  padding-right: 30px;
+  font-weight: 400;
+}
+.right-items {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+}
+.left-items {
+ display: flex;
+  font-size: 25px;
+  font-weight: 600;
+  align-items: center;
+}
+.card a{
+text-decoration: none;
+color: #252422;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.featured{
+    margin-left: 20px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.headingtext{
+  margin-top: 20px;
+  margin-left: 20px;
+font-size: 28px;
+font-weight: 400;
+color: #252422;
+}
+.MoviesX{
+  height: 170px;
+  width: 150px;
+}
+
+.MicrosoftClone{
+  height: 150px;
+    width: 300px;
+}
+
+.Weather{
+    height: 180px;
+      width: 150px;
+}
+
+.Contact{
+  height: 120px;
+    width: 190px;
+}
+
+.featured {
+  display: flex;
+  /* Set default flex direction as row */
+  flex-direction: row;
+  /* Add other styles as needed */
+  justify-content: space-around;
+  align-items: center;
+  /* Add any other styles specific to your layout */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) {
+  .featured {
+    /* Change the flex direction to column for smaller devices */
+    flex-direction: column;
+    /* Optionally, adjust alignment or other properties for mobile */
+    align-items: center;
+    /* Align items to the center */
+  }
+
+  /* Additional styles specific to images or cards */
+  .card {
+    /* Add margin or other adjustments as needed */
+    margin-bottom: 20px;
+    /* Example: Adding margin between cards */
+  }
+.right-items a{
+  
+  font-weight: 300;
+  
+}
+  .right-items{
+   margin-top: 20px;
+  gap: 12px;
+  font-weight: 200;
+  justify-content: center;
+  margin-left: 0;
+  }
+
+    .MoviesX {
+      height: 120px;
+      width: 100px;
+    }
+  
+    .MicrosoftClone {
+      height: 100px;
+      width: 230px;
+    }
+  
+    .Weather {
+      height: 130px;
+      width: 100px;
+    }
+  
+    .Contact {
+      height: 100px;
+      width: 170px;
+    }
+        .navbar {
+         
+          padding-top: 10px;
+          padding-bottom: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background-color: #252422;
+        }
+.navbar a {
+                  text-align: center;
+                    justify-content: center;
+                }
+.expertise {
+  flex-direction: column;
+    /* Optionally, adjust alignment or other properties for mobile */
+   
+
+
+}
+.expertiseCard {
+  margin-top: 40px;
+}
+}
+hr{
+  margin-top: 30px;
+  height: 2px;
+  color: #252422;
+  background-color: #252422;
+  border: none;
+}
+
+.expertise{
+  margin-top: 20px;
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+    
+
+}
+
+.expertiseHeading{
+  font-size: 24px;
+}
+.expertiseCard{
+  padding-right: 20px;
+}
+
+.expertiseCard p{
+  margin-top: 10px;
+}
